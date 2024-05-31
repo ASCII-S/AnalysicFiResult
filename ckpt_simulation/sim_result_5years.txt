@@ -1,0 +1,96 @@
+CKPT:hpl
+checkpoint cost: 15
+Checkpoints: [2736, 5472, 8208, 10944, 13680, 16416, 19152, 21888, 24624, 27360]
+total ckpts:57945
+no need ckpts:57320	
+total fault:635
+efficiency:0.9890782936324428
+
+WITHOUT:hpl
+checkpoint cost: 15
+Checkpoints: [820, 1640, 2460, 3280, 4100, 4920, 5740, 6560, 7380, 8200]
+total ckpts:195863
+no need ckpts:195211	
+total fault:653
+efficiency:0.9800714211509234
+
+CKPT:hpl
+checkpoint cost: 150
+Checkpoints: [15437, 24192, 32947, 41702, 50457, 59212, 67967, 76722, 85477, 94232]
+total ckpts:18313
+no need ckpts:17691	
+total fault:643
+efficiency:0.9654037512511355
+
+WITHOUT:hpl
+checkpoint cost: 150
+Checkpoints: [2696, 5392, 8088, 10784, 13480, 16176, 18872, 21568, 24264, 28216]
+total ckpts:61895
+no need ckpts:61275	
+total fault:627
+efficiency:0.9393018140069701
+
+CKPT:hpl
+checkpoint cost: 1500
+Checkpoints: [28713, 57426, 86139, 131355, 160068, 188781, 217494, 246207, 274920, 303633]
+total ckpts:5758
+no need ckpts:5177	
+total fault:648
+efficiency:0.8977166382595638
+
+WITHOUT:hpl
+checkpoint cost: 1500
+Checkpoints: [9550, 19100, 28650, 38200, 47750, 57300, 76437, 85987, 95537, 105087]
+total ckpts:19464
+no need ckpts:18823	
+total fault:662
+efficiency:0.8274103458281391
+
+CKPT:miniFE
+checkpoint cost: 15
+Checkpoints: [1593, 3186, 4779, 6372, 7965, 9558, 11151, 12744, 14337, 15930]
+total ckpts:99905
+no need ckpts:98001	
+total fault:1941
+efficiency:0.981140699888455
+
+WITHOUT:miniFE
+checkpoint cost: 15
+Checkpoints: [820, 1640, 2460, 3280, 4100, 4920, 5740, 6560, 7380, 8200]
+total ckpts:195839
+no need ckpts:193916	
+total fault:1948
+efficiency:0.9769122392612218
+
+CKPT:miniFE
+checkpoint cost: 150
+Checkpoints: [5142, 10284, 15426, 20568, 25710, 30852, 35994, 41136, 46278, 51420]
+total ckpts:31529
+no need ckpts:29754	
+total fault:1881
+efficiency:0.9426376644652538
+
+WITHOUT:miniFE
+checkpoint cost: 150
+Checkpoints: [2696, 5392, 8088, 10784, 13480, 16176, 18872, 21568, 24264, 26960]
+total ckpts:61819
+no need ckpts:59968	
+total fault:1923
+efficiency:0.9293705166256829
+
+CKPT:miniFE
+checkpoint cost: 1500
+Checkpoints: [17287, 46415, 63702, 80989, 98276, 115563, 132850, 150137, 167424, 190586]
+total ckpts:9783
+no need ckpts:8045	
+total fault:2151
+efficiency:0.8223549323628975
+
+WITHOUT:miniFE
+checkpoint cost: 1500
+Checkpoints: [9550, 19100, 28650, 38200, 55038, 64588, 74138, 83688, 93238, 102788]
+total ckpts:19205
+no need ckpts:17389	
+total fault:2049
+efficiency:0.7985075606051312
+
