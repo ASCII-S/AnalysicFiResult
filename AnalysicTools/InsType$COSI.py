@@ -9,7 +9,7 @@ import sys
 #功能2：在node文件夹中产生CrashOnSameIp, do=2
 do = 1
 #功能3：该功能会再生成一个Uknown_文件，用来提取程序ins_type中属于unknown的部分，以供进一步划分指令
-filter_ukn_ctrl = 1
+filter_ukn_ctrl = 0
 #根目录
 base_dir = '../Result_csv0529/'
 #存放appcsv文件的文件夹

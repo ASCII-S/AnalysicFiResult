@@ -77,8 +77,10 @@ def count_ip_in_appdf2(appdf,loopdf,file_path):#对单个loop文件操作
     total_crash_sum = 0
     # 开始双指针循环
     while loop_index < len(loopdf) and app_index < len(appdf):
-        loop_ip = loopdf.at[loop_index, 'IP'].replace('0x','')
-        app_ip = appdf.at[app_index, 'IP'].replace('0x','')
+        #loop_ip = loopdf.at[loop_index, 'IP'].replace('0x','')
+        #app_ip = appdf.at[app_index, 'IP'].replace('0x','')
+        loop_ip = loopdf.at[loop_index, 'IP']
+        app_ip = appdf.at[app_index, 'IP']
         #print(loop_ip,app_ip)
         # 检查两个指针指向的 IP 是否相同    
         if loop_ip == app_ip:
@@ -184,7 +186,7 @@ def deal_apploops(appcsvfolder,loopfolder,appname): #对单个app操作
             matched_folder = os.path.join(loopfolder, folder)
             break
     if matched_folder:
-        print(f"\nappname\nThe folder '{matched_folder}' contains the app '{appname}'.")
+        print(f"\n\t\t{appname}\nThe folder '{matched_folder}' contains the app '{appname}'.")
         # 如果需要，你可以在这里继续处理 matched_folder
     else:
         print(f"The app '{appname}' is not found in any folder within '{loopfolder}'.")

@@ -1,5 +1,0 @@
-amg.csv,Ins_Type,BR_OR_LP_CTRL,CONDITION,DATAXFER,FP,INTEGER,SHIFT,STACK,UnKnown
-amg.csv,Count,20,139,231,68,166,3,3,109
-amg.csv,CrashCount,9,54,102,34,80,0,2,45
-amg.csv,Crash%,45.00,38.85,44.16,50.00,48.19,0.00,66.67,41.28
-
